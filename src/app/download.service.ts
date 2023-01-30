@@ -1,6 +1,6 @@
 import { Injectable, Inject } from '@angular/core';
 import { HttpClient, HttpRequest } from '@angular/common/http';
-import { download, Download } from './download.utils.ts';
+import { download, Download } from './download.util';
 import { Observable } from 'rxjs';
 import { SAVER, Saver } from './saver.provider';
 
